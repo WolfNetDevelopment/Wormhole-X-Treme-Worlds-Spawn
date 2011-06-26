@@ -1,5 +1,5 @@
 name: WormholeXTremeWorldsSpawn
-main: de.luricos.bukkit.WormholeXTremeWorldsSpawn
+main: de.luricos.bukkit.WormholeXTreme.WorldsSpawn
 version: 0.1
 author: alron
 depend: [WormholeXTremeWorlds]

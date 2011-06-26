@@ -15,32 +15,42 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package de.luricos.bukkit.worldsspawn.command;
+package de.luricos.bukkit.WormholeXTreme.WorldsSpawn.command;
 
-import org.bukkit.command.Command;
-import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import de.luricos.bukkit.worldsspawn.WormholeXTremeWorldsSpawn;
+import de.luricos.bukkit.WormholeXTreme.WorldsSpawn.WormholeXTremeWorldsSpawn;
 
 /**
- * The Class Spawn.
+ * The Class CommandUtilities.
  * 
  * @author alron
  */
-public class Spawn implements CommandExecutor {
+public class CommandUtilities {
 
-    /* (non-Javadoc)
-     * @see org.bukkit.command.CommandExecutor#onCommand(org.bukkit.command.CommandSender, org.bukkit.command.Command, java.lang.String, java.lang.String[])
+    /** The Constant thisPlugin. */
+    private final static WormholeXTremeWorldsSpawn thisPlugin = WormholeXTremeWorldsSpawn.getThisPlugin();
+
+    /**
+     * Player check.
+     * 
+     * @param sender
+     *            the sender
+     * @return true, if successful
      */
-    @Override
-    public boolean onCommand(final CommandSender sender, final Command command, final String label, final String[] args) {
-        if (CommandUtilities.playerCheck(sender)) {
-            WormholeXTremeWorldsSpawn.getWorldHandler().spawnPlayer((Player) sender);
+    static boolean playerCheck(final CommandSender sender) {
+        if (sender instanceof Player) {
             return true;
         }
-        return true;
+        return false;
+    }
+
+    /**
+     * Register commands.
+     */
+    public static void registerCommands() {
+        thisPlugin.getCommand("spawn").setExecutor(new Spawn());
     }
 
 }
