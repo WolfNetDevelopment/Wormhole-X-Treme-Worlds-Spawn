@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package com.wormhole_xtreme.worlds_spawn.command;
+package de.luricos.bukkit.worldsspawn.command;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Player;
 
-import com.wormhole_xtreme.worlds_spawn.WormholeXTremeWorldsSpawn;
+import de.luricos.bukkit.worldsspawn.WormholeXTremeWorldsSpawn;
 
 /**
  * The Class Spawn.

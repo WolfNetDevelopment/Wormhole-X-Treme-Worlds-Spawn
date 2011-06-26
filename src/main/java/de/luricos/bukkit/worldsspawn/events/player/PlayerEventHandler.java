@@ -15,7 +15,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package com.wormhole_xtreme.worlds_spawn.events.player;
+package de.luricos.bukkit.worldsspawn.events.player;
 
 import java.util.logging.Level;
 
@@ -24,7 +24,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.player.PlayerListener;
 import org.bukkit.event.player.PlayerRespawnEvent;
 
-import com.wormhole_xtreme.worlds_spawn.WormholeXTremeWorldsSpawn;
+import de.luricos.bukkit.worldsspawn.WormholeXTremeWorldsSpawn;
 
 /**
  * The Class PlayerEventHandler.
