@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.wormhole_xtreme.worlds_spawn</groupId>
+	<groupId>de.luricos.bukkit.WormholeXTreme</groupId>
+	<artifactId>WorldsSpawn</artifactId>
 	<version>0.1</version>
-	<artifactId>WormholeXTremeWorldsSpawn</artifactId>
 	<packaging>jar</packaging>
-	<name>Wormhole-X-Treme Worlds</name>
+	<name>WormHoleXTremeWorldsSpawn</name>
 	<properties>
 	   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -61,8 +61,8 @@
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.wormhole_xtreme.worlds</groupId>
-			<artifactId>WormholeXTremeWorlds</artifactId>
+			<groupId>de.luricos.bukkit.WormholeXTreme</groupId>
+			<artifactId>Worlds</artifactId>
 			<version>[0.5,)</version>
 			<type>jar</type>
 			<scope>compile</scope>

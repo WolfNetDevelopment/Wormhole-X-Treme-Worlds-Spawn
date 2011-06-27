@@ -15,14 +15,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
-package com.wormhole_xtreme.worlds_spawn.events;
+package de.luricos.bukkit.WormholeXTreme.WorldsSpawn.events;
 
 import org.bukkit.event.Event;
 import org.bukkit.event.Event.Priority;
 import org.bukkit.plugin.PluginManager;
 
-import com.wormhole_xtreme.worlds_spawn.WormholeXTremeWorldsSpawn;
-import com.wormhole_xtreme.worlds_spawn.events.player.PlayerEventHandler;
+import de.luricos.bukkit.WormholeXTreme.WorldsSpawn.WormholeXTremeWorldsSpawn;
+import de.luricos.bukkit.WormholeXTreme.WorldsSpawn.events.player.PlayerEventHandler;
 
 /**
  * The Class EventUtilities.
